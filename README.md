@@ -59,9 +59,32 @@ If you want, you can change the `--width` and `--height` values according to you
 - After saving the changes, move the file to a location that you will be able to remember the path of.
 - Next, open terminal in that location and give your file the necessary permissions by executing the command below:
   - `sudo chmod +x yourfile.sh`
+- Now we have the script that will automatically launch Waydroid on X11 without issues. However, running `./yourfile.sh` command every time you want to use Waydroid can be annoying. That's why, let's make it look like an app!
+- Create a file with `.desktop` file extension and open it using a text editor.
+  - Your file's content should be:
+```
+[Desktop Entry]
+Name=Waydroid-X11
+Comment=Launch Waydroid inside Weston
+Exec=sh -c '~/waydroid.sh'
+Icon=waydroid
+Terminal=false
+Type=Application
+Categories=System;
+```
+After saving the changes, move the file to the necessary location to make your system detect it as an application executing the command below:
+- `sudo mv yourfile.desktop ~/.local/share/applications/`
+- After that, you should see an app called **Waydroid-X11** in your applications list. You can comfortably start launching waydroid using that shortcut on X11!
 ## Post Installation
 - First of all, the store application we will be using is **Aurora Store** and not Play Store. Do not worry, Aurora Store can install everything that Play Store can.
 - Next, for MicroG configuration, open **microG Settings** app and:
   - Enable `Google device registration`, `Cloud Messaging` and `Google SafetyNet`.
 - After these steps, you can finally start downloading your favourite software! Enjoy!
-
+### A Little Note After Installation
+- On your Linux system, you might see the Android apps inside Waydroid on your applications list and you might find seeing them annoying. To hide them:
+  - Go to `~/.local/share/applications/` location and edit all `.desktop` files that belong to Waydroid one by one.
+    - What we are going to do while editing the files using a text editor is adding `NoDisplay=true` at the end of the `[Desktop Entry]` section of each `.desktop` file that belongs to Waydroid.
+- After saving the changes, the icons should be hidden from your applications list after a few minutes. Removing the .desktop files would not work because they would be added again after running Waydroid.
+- These are all we can do to install and configure Waydroid!
+# Conclusion
+This guide was about Waydroid installation and configuration. I hope the guide has been useful. Thank you for reading, have a nice day! 🐧
