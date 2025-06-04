@@ -66,7 +66,7 @@ If you want, you can change the `--width` and `--height` values according to you
 [Desktop Entry]
 Name=Waydroid-X11
 Comment=Launch Waydroid inside Weston
-Exec=sh -c '~/waydroid.sh'
+Exec=sh -c '~/location/of/yourfile.sh'
 Icon=waydroid
 Terminal=false
 Type=Application
@@ -94,7 +94,7 @@ After saving the changes, close Waydroid by executing `waydroid session stop` co
 - On your Linux system, you might see the Android apps inside Waydroid on your applications list and you might find seeing them annoying. To hide them:
   - Go to `~/.local/share/applications/` location and edit all `.desktop` files that belong to Waydroid one by one.
     - What we are going to do while editing the files using a text editor is adding `NoDisplay=true` at the end of the `[Desktop Entry]` section of each `.desktop` file that belongs to Waydroid.
-- After saving the changes, the icons should be hidden from your applications list after a few minutes. Removing the .desktop files would not work because they would be added again after running Waydroid.
+- After saving the changes, the icons should be hidden from your applications list in a few minutes. Removing the .desktop files would not work because they would be added again after running Waydroid.
 - These are all we can do to install and configure Waydroid!
 # Conclusion
 This guide was about Waydroid installation and configuration. I hope the guide has been useful. Thank you for reading, have a nice day! 🐧
