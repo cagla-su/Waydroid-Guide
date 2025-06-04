@@ -34,14 +34,14 @@ Hello 🤭. In this guide, you will be informed about what is Waydroid, how to i
  - It is also possible to get keyboard + mouse compatibility for games that do not support it through keymappers. However, I am not knowledgeable enough to include it in my guide. I might include it later if I can succeed using it.
 ## Before Starting
 Before starting, I must say that Waydroid runs **only on Wayland!!!** So if you are using X11, you should apply some extra steps.
-## Get Started
+## Get Started - Wayland
 - First of all, install Waydroid [following the steps according to your Linux distribution](https://docs.waydro.id/usage/install-on-desktops).
 - Next, execute `sudo waydroid init` command in your terminal to install Android in Waydroid.
 - Next, install [this script](https://github.com/casualsnek/waydroid_script) to configure Waydroid easier.
   - If you are confused, [install the required dependency package for your Linux distribution](https://github.com/casualsnek/waydroid_script?tab=readme-ov-file#dependencies) first and [execute the specified commands in your terminal](https://github.com/casualsnek/waydroid_script?tab=readme-ov-file#interactive-terminal-interface) to run the script.
 - After successfully running the script, follow these steps:
   - `Android 11 - Install - Choose "microg and libhoudini (or libndk if you use an AMD CPU)" using Space button - Enter - Select "Standard" as the MicroG variant`
-- After these steps, you are officially ready to use Waydroid. However, there might still be some extra steps to apply.
+- After these steps, you are officially ready to use Waydroid.
 ## How to Run Waydroid on X11?
 - Simply apply the previous steps to install Waydroid properly.
 - After applying the previous steps, install `weston` package using your package manager.
@@ -75,11 +75,21 @@ Categories=System;
 After saving the changes, move the file to the necessary location to make your system detect it as an application executing the command below:
 - `sudo mv yourfile.desktop ~/.local/share/applications/`
 - After that, you should see an app called **Waydroid-X11** in your applications list. You can comfortably start launching waydroid using that shortcut on X11!
+## Waydroid Hybrid Graphics Setup
+- Waydroid does not run on hybrid graphics (computers with two GPUs) setup. So that's why we should make Waydroid use our integrated GPU.
+- To do so, execute `sudo nano /var/lib/waydroid/waydroid_base.prop` command in terminal and change these two as:
+```
+ro.hardware.gralloc=default
+ro.hardware.egl=mesa
+```
+After saving the changes, close Waydroid by executing `waydroid session stop` command in terminal and try launching it again. The problem should be solved.
 ## Post Installation
 - First of all, the store application we will be using is **Aurora Store** and not Play Store. Do not worry, Aurora Store can install everything that Play Store can.
 - Next, for MicroG configuration, open **microG Settings** app and:
   - Enable `Google device registration`, `Cloud Messaging` and `Google SafetyNet`.
-- After these steps, you can finally start downloading your favourite software! Enjoy!
+- After these steps, you can finally start downloading your favourite software!
+- When you close Waydroid, it generally keeps running in the background. If you would like to stop it from running in the background, you should execute the command below:
+  - `waydroid session stop`
 ### A Little Note After Installation
 - On your Linux system, you might see the Android apps inside Waydroid on your applications list and you might find seeing them annoying. To hide them:
   - Go to `~/.local/share/applications/` location and edit all `.desktop` files that belong to Waydroid one by one.
