@@ -1,5 +1,5 @@
 # Waydroid Guide
-Hello 🤭. In this guide, you will be informed about what is Waydroid, how to install and configure it in a beginner friendly way.
+Hello 🤭. In this guide, you will be informed about what is Waydroid, how to install and configure it.
 ## Questions
 ### What is Waydroid?
 [Waydroid](https://waydro.id/) is a container-based compatibility layer that enables Android to run in a containerized environment on Linux systems. You can use your favourite Android applications and play a good amount of Android games through Waydroid.
@@ -10,17 +10,17 @@ Mobile phones have processors that use **ARM-based** architecture while most of 
     - **CPU Architecture:** They emulate **ARM** CPU architecture instead of using your CPU architecture natively.
       - **Android System Services and Kernel:** They emulate Android's kernel components in a virtual environment.
       - **Device Hardware and Sensors**
-      - GPS
-      - Compass sensor, gyroscope, magnetometer etc.
-      - Camera, microphone and speakers
-      - Wi-Fi and telephony functions like phone calls, SMS etc.
-      - Storage
-      - GPU rendering
-      - Keyboard, mouse, controllers etc.
+        - GPS
+        - Compass sensor, gyroscope, magnetometer etc.
+        - Camera, microphone and speakers
+        - Wi-Fi and telephony functions like phone calls, SMS etc.
+        - Storage
+        - GPU rendering
+        - Keyboard, mouse, controllers etc.
 - However, Waydroid **does not imitate** anything mentioned above but it directly uses **your own computer hardware and Linux kernel** to run Android on Linux. That's why there is **almost no performance loss**.
-  - Plus, just like how WINE directs Windows library files into Linux library files to make Windows applications run on Linux, Waydroid performs a similar process for directing Android library files into Linux library files for software compatibility.
+  - Plus, just like how [WINE](https://www.winehq.org/) directs Windows library files into Linux library files to make Windows applications run on Linux, Waydroid performs a similar process for directing Android library files into Linux library files for software compatibility.
 ### Can I play all Android games through Waydroid?
-No. Most of the Android games do not support x86_64 architecture. It is possible to install an **ARM translation layer** to make incompatible games compatible, however if that game does not support keyboard + mouse configuration, you will be unable to play the game anyway.
+No. Most of the Android games do not support x86_64 architecture. It is possible to install an **ARM translation layer** to make incompatible games compatible, however if that game does not support keyboard + mouse configuration, you will be unable to play it anyway.
 - Some Android games that support keyboard + mouse configuration are:
   - Roblox
   - Minecraft: Pocket Edition
@@ -33,7 +33,7 @@ No. Most of the Android games do not support x86_64 architecture. It is possible
 - Other than that, many Android games like **Angry Birds, Stick Hero etc.** that only require a touchscreen can be played through your mouse.
 - It is also possible to get keyboard + mouse compatibility for games that do not support it through keymappers. However, I am not knowledgeable enough to include it in my guide. I might include it later if I can succeed using it.
 ## Before Starting
-Before starting, I must say that Waydroid runs **only on Wayland!!!** So if you are using X11, you should apply some extra steps.
+Before starting, I should say that Waydroid runs **only on Wayland!!!** So if you are using X11, you should apply some extra steps.
 ## Get Started - Wayland
 - First of all, install Waydroid [following the steps according to your Linux distribution](https://docs.waydro.id/usage/install-on-desktops).
 - Next, execute `sudo waydroid init` command in your terminal to install Android in Waydroid.
@@ -76,16 +76,16 @@ After saving the changes, move the file to the necessary location to make your s
 - `sudo mv yourfile.desktop ~/.local/share/applications/`
 - After that, you should see an app called **Waydroid-X11** in your applications list. You can comfortably start launching waydroid using that shortcut on X11!
 ## Waydroid Hybrid Graphics Setup
-- Waydroid does not run on hybrid graphics (computers with two GPUs) setup. So that's why we should make Waydroid use our integrated GPU.
-- To do so, execute `sudo nano /var/lib/waydroid/waydroid_base.prop` command in terminal and change these two as:
+- Waydroid does not run on hybrid graphics (computers with two GPUs) setup. So that's why we should make Waydroid use the integrated GPU.
+- To do so, execute `sudo nano /var/lib/waydroid/waydroid_base.prop` command in terminal and change these two below as:
 ```
 ro.hardware.gralloc=default
 ro.hardware.egl=mesa
 ```
-After saving the changes, close Waydroid by executing `waydroid session stop` command in terminal and try launching it again. The problem should be solved.
+After saving the changes, close Waydroid by executing `waydroid session stop` command in terminal and launch it. The problem should be solved.
 ## Waydroid Internet Connection Issue
 This issue generally occurs from the firewall your system is using.
-- This step is explained well in [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
+- This step is explained well detailed in [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
 ## Post Installation
 - First of all, the store application we will be using is **Aurora Store** and not Play Store. Do not worry, Aurora Store can install everything that Play Store can.
 - Next, for MicroG configuration, open **microG Settings** app and:
@@ -94,7 +94,7 @@ This issue generally occurs from the firewall your system is using.
 - When you close Waydroid, it generally keeps running in the background. If you would like to stop it from running in the background, you should execute the command below:
   - `waydroid session stop`
 ### A Little Note After Installation
-- On your Linux system, you might see the Android apps inside Waydroid on your applications list and you might find seeing them annoying. To hide them:
+- On your Linux system, you might see the Android apps inside Waydroid in your applications list and you might find seeing them annoying. To hide them:
   - Go to `~/.local/share/applications/` location and edit all `.desktop` files that belong to Waydroid one by one.
     - What we are going to do while editing the files using a text editor is adding `NoDisplay=true` at the end of the `[Desktop Entry]` section of each `.desktop` file that belongs to Waydroid.
 - After saving the changes, the icons should be hidden from your applications list in a few minutes. Removing the .desktop files would not work because they would be added again after running Waydroid.
