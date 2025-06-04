@@ -83,6 +83,9 @@ ro.hardware.gralloc=default
 ro.hardware.egl=mesa
 ```
 After saving the changes, close Waydroid by executing `waydroid session stop` command in terminal and try launching it again. The problem should be solved.
+## Waydroid Internet Connection Issue
+This issue generally occurs from the firewall your system is using.
+- This step is explained well in [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
 ## Post Installation
 - First of all, the store application we will be using is **Aurora Store** and not Play Store. Do not worry, Aurora Store can install everything that Play Store can.
 - Next, for MicroG configuration, open **microG Settings** app and:
