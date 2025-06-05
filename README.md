@@ -98,7 +98,7 @@ This issue generally occurs from the firewall your system is using.
   - Go to `~/.local/share/applications/` location and edit all `.desktop` files that belong to Waydroid one by one.
     - What we are going to do while editing the files using a text editor is adding `NoDisplay=true` at the end of the `[Desktop Entry]` section of each `.desktop` file that belongs to Waydroid.
   - After saving the changes, the icons should be hidden from your applications list in a few minutes. Removing the .desktop files would not work because they would be added again after running Waydroid.
-- Also, if you are using Waydroid through Wayland and want to change resolution of Waydroid, you should execute the command below in terminal while waydroid is running:
+- Also, if you are using Waydroid through Wayland and want to change resolution of Waydroid, you should execute the command below in terminal while Waydroid is running:
 ```
 waydroid prop set persist.waydroid.width [value]
 waydroid prop set persist.waydroid.height [value]
