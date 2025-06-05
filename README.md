@@ -97,7 +97,12 @@ This issue generally occurs from the firewall your system is using.
 - On your Linux system, you might see the Android apps inside Waydroid in your applications list and you might find seeing them annoying. To hide them:
   - Go to `~/.local/share/applications/` location and edit all `.desktop` files that belong to Waydroid one by one.
     - What we are going to do while editing the files using a text editor is adding `NoDisplay=true` at the end of the `[Desktop Entry]` section of each `.desktop` file that belongs to Waydroid.
-- After saving the changes, the icons should be hidden from your applications list in a few minutes. Removing the .desktop files would not work because they would be added again after running Waydroid.
+  - After saving the changes, the icons should be hidden from your applications list in a few minutes. Removing the .desktop files would not work because they would be added again after running Waydroid.
+- Also, if you are using Waydroid through Wayland and want to change resolution of Waydroid, you should execute the command below in terminal while waydroid is running:
+```
+waydroid prop set persist.waydroid.width [value]
+waydroid prop set persist.waydroid.height [value]
+```
 - These are all we can do to install and configure Waydroid!
 # Conclusion
 This guide was about Waydroid installation and configuration. I hope the guide has been useful. Thank you for reading, have a nice day! 🐧
