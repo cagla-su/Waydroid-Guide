@@ -2,34 +2,29 @@
 Hello. In this guide, you will be informed about **what is <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid and how to install/configure it**. If you are ready, let's begin!
 ## Questions
 ### What is <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid?
-<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> [Waydroid](https://waydro.id/) is a container-based compatibility layer that allows <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android to run in a containerized environment on Linux systems.
+<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> [Waydroid](https://waydro.id/) is a **container-based compatibility layer** that allows <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> **Android to run** in a containerized environment on Linux systems.
 ### How Does <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Differ from <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android Emulators?
 Mobile phones use processors with **ARM-based** architectures while most of the computers use processors with **x86_64** architectures.
-- So, <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android emulators **emulate (imitate)** everything about the <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android system to make <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android applications and games run on computers. This process delivers **naturally poor** performance especially if you do not have a powerful system.
+- So, <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android emulators **emulate (imitate)** everything about the <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android system to make <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android software run on computers. This process naturally delivers **poor performance** especially if you do not have a powerful system.
   - To explain further, <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android emulators emulate:
-    - **CPU Architecture:** They emulate **ARM** CPU architecture instead of using your CPU architecture natively.
-      - **<img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android System Services and Kernel:** They emulate <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android's kernel components in a virtual environment.
-      - **Device Hardware and Sensors**
-        - GPS
-        - Compass sensor, gyroscope, magnetometer etc.
-        - Camera, microphone and speakers
-        - Wi-Fi and telephony functions like phone calls, SMS etc.
-        - Storage
-        - GPU rendering
-        - Keyboard, mouse, controllers etc.
-- However, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **does not imitate** anything mentioned above. It directly uses **your own computer hardware and Linux kernel** to run <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android on Linux. That's why there is **almost no performance loss**.
+    - **CPU Architecture:** They emulate **ARM** CPU architecture **instead of natively using** your CPU architecture.
+    - **<img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android System Services and Kernel**
+    - **Device Hardware and Sensors**
+- However, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **does not emulate** anything mentioned above. It **directly uses your own computer hardware and Linux kernel** to run <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android on Linux. That's why there is **almost no performance loss**.
 ### Can I play all Android games through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid?
-No. Most of the <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games **do not support** x86_64 architecture. It is possible to install an **ARM translation layer** to make incompatible games compatible, however if that game does not support keyboard + mouse configuration, you will be unable to play it anyway.
-- Some <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games that support keyboard + mouse configuration are:
-  - Roblox
-  - Minecraft: Pocket Edition
-  - Subway Surfers
-  - aa (and derivatives)
-  - Stardew Valley
-  - Asphalt 8
-  - Geometry Dash
-  - Shadow Fight 3
-- Other than these, many <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games like **Angry Birds, Stick Hero etc.** that only require a touchscreen can be played through your mouse.
+- No. Most of the <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games **do not support** x86_64 architecture.
+- It is possible to install an **ARM translation layer** to make incompatible games compatible.
+  - However, if that game does not support keyboard + mouse configuration, you will be unable to play it anyway.
+    - Some <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games that support keyboard + mouse configuration are:
+      - Roblox
+      - Minecraft: Pocket Edition
+      - Subway Surfers
+      - aa (and derivatives)
+      - Stardew Valley
+      - Asphalt 8
+      - Geometry Dash
+      - Shadow Fight 3
+    - Other than these, many <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games like **Angry Birds, Stick Hero etc.** that **only require a touchscreen can be played through your mouse**.
 ## Before Starting
 Before starting, I should say that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid runs **only on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland!!!** So if you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4d1fca1d-3f5b-4de8-af0a-7555255af4f2" /> X11, you should apply some extra steps.
 ## Get Started - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland
