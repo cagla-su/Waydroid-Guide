@@ -87,9 +87,9 @@ waydroid session stop
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Internet Connection Issue
 This issue generally occurs from the **firewall** your system is using.
 - This step is explained in [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
-## Post Installation
+## Post-Installation
 - First of all, I suggest that you **replace <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/abd68b9b-79ab-4062-a28c-54edff49e54e" /> Google Play Store** with <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> **Aurora Store** by [downloading it from here](https://f-droid.org/en/packages/com.aurora.store/).
-  - However, you do not have to worry because <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store can install everything that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/abd68b9b-79ab-4062-a28c-54edff49e54e" /> Google Play Store can.
+  - You do not have to worry since <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store **can install everything** that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/abd68b9b-79ab-4062-a28c-54edff49e54e" /> Google Play Store can.
 - For <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2acef641-cfdf-4dcd-a5d8-be0eba79d567" /> MicroG configuration, open <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2acef641-cfdf-4dcd-a5d8-be0eba79d567" /> **microG Settings** app and **enable the three options** below:
   - `Google device registration`, `Cloud Messaging` and `Google SafetyNet`.
 - Next, **disable <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/abd68b9b-79ab-4062-a28c-54edff49e54e" /> Google Play Store** from settings app and **launch** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store.
@@ -100,16 +100,16 @@ This issue generally occurs from the **firewall** your system is using.
 ```
 waydroid session stop
 ```
-- On your Linux system, you might see the <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android apps in your applications list. If you would like to hide them:
+- On your Linux system, you might see the <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> **Android apps in your applications list**. If you would like to **hide them**:
   - Go to `~/.local/share/applications/` and **edit all `.desktop` files** that belong to <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **one by one**.
     - While editing the files, **add** `NoDisplay=true` at the end of the `[Desktop Entry]` section of **each `.desktop` file** that belongs to <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
   - After **saving** the changes, the **icons should be hidden** from your applications list **in a few minutes**.
     - **Removing** the .desktop files instead **would not work** because they would **be added again after running <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid**.
-- Also, if you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland and if you want to change default screen resolution, you should **execute the command below** in terminal while <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid is **still running**:
+- Also, if you are **using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland** and if you want to **change default screen resolution**, you should **execute the command** below in terminal while <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid is **still running**:
 ```
 waydroid prop set persist.waydroid.width [value]
 waydroid prop set persist.waydroid.height [value]
 ```
-- Now you are ready to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid!
+- Now you are **ready to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid!**
 # Conclusion
 This guide was about Waydroid installation and configuration. I hope the guide has been useful. Thank you for reading, have a nice day! 🐧
