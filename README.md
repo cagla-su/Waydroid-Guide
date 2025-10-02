@@ -11,7 +11,7 @@ Mobile phones use processors with **ARM-based** architectures while most of the 
     - **Device hardware and sensors**
 - However, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **does not emulate anything** mentioned above. It **directly uses your own computer hardware and Linux kernel** to run <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android on Linux. That's why there is **almost no performance loss**.
 ### Can I play all Android games through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid?
-- **No**. Most of the <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games **do not support** x86_64 architecture.
+- **No**. Most of the <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games **do not support x86_64** architecture.
 - It is possible to install an **ARM translation layer** to make **incompatible games compatible**.
 - However, if the game **does not** support keyboard + mouse configuration, you will be **unable to play** it anyway.
   - Some <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games that **natively support keyboard + mouse configuration** are:
@@ -32,12 +32,12 @@ Before starting, you should be aware of the fact that <img width="16" height="25
 - Next, **install** [this script](https://github.com/casualsnek/waydroid_script) to configure <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid with an easier way.
   - If you are confused, [install the required dependency package for your Linux distribution](https://github.com/casualsnek/waydroid_script?tab=readme-ov-file#dependencies) first and [execute the specified commands in your terminal](https://github.com/casualsnek/waydroid_script?tab=readme-ov-file#interactive-terminal-interface) to run the script.
 - After successfully running the script, follow these steps:
-  - `Android 13` **-** `Install` **-** `Choose "libhoudini (or libndk if you use an AMD CPU)" using Space button` **-** `Enter`
+  - `Android 13` **-** `Install` **-** `Select "libhoudini (or libndk if you use an AMD CPU)" using Space button` **-** `Enter`
 - You are now **officially ready to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid**.
 ## How to Run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4d1fca1d-3f5b-4de8-af0a-7555255af4f2" /> X11?
 - Simply **apply the** [previous steps](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started----wayland) to install <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid properly.
 - After applying the previous steps, **install** `weston` package using your package manager.
-- Next, **create a file** and **name it** whatever you want. **Change the file's extension** as `.sh` and **edit the file** using a text editor.
+- Next, **create a file** and **name it** as you wish. **Change the file's extension** as `.sh` and **edit the file** using a text editor.
   - Your bash script's content **should look like this**:
 ```
 #!/bin/bash
