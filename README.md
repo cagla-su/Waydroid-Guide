@@ -1,3 +1,16 @@
+# Table of Contents
+- [Questions](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#questions)
+    - [What is Waydroid?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#what-is--waydroid) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
+    - [How does Waydroid differ from Android emulators?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#what-is--waydroid) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> 
+    - [Can I play all Android games through Waydroid?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#can-i-play-all-android-games-through--waydroid) <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" />  <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
+- [Before Starting](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#before-starting)
+- [Get Started - Wayland](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started----wayland) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" />
+- [How to Run Waydroid on X11?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#how-to-run--waydroid-on--x11) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4d1fca1d-3f5b-4de8-af0a-7555255af4f2" />
+- [Waydroid Hybrid Graphics Setup](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#-waydroid-hybrid-graphics-setup) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
+- [Waydroid Internet Connection Issue](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#-waydroid-internet-connection-issue) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
+- [Post-Installation](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#post-installation)
+- [Notes](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#notes)
+- [Conclusion](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#conclusion)
 # Waydroid Guide
 Hello. In this guide, you will be informed about **what is <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid and how to install/configure it**. If you are ready, let's begin!
 ## Questions
