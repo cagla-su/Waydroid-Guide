@@ -88,7 +88,7 @@ waydroid session stop
 This issue generally occurs from the **firewall** your system is using.
 - This step is explained in [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
 ## Post-Installation
-- First of all, I suggest that you **install <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store** as a <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/abd68b9b-79ab-4062-a28c-54edff49e54e" /> Google Play Store** alternative.
+- First of all, I suggest that you **install <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store** as a <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/abd68b9b-79ab-4062-a28c-54edff49e54e" /> **Google Play Store** alternative.
     - You can [download <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store from this link](https://f-droid.org/en/packages/com.aurora.store/)**.
 - After installing <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store, you should **install and configure <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2acef641-cfdf-4dcd-a5d8-be0eba79d567" /> MicroG** [following my MicroG guide](https://github.com/cagla-su/MicroG-Guide).
 - Finally, **launch** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store and **complete the beginning steps**.
