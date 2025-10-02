@@ -1,11 +1,11 @@
 # Waydroid Guide
 Hello. In this guide, you will be informed about **what <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid is, how to install and configure it**. If you are ready, let's begin!
 ## Questions
-### What is Waydroid?
-<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> [Waydroid](https://waydro.id/) is a container-based compatibility layer that enables Android to run in a containerized environment on Linux systems. You can use your favourite Android applications and play a good amount of Android games through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
+### What is <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid?
+<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> [Waydroid](https://waydro.id/) is a container-based compatibility layer that allows Android to run in a containerized environment on Linux systems.
 ### How Does <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Differ from Android Emulators?
 Mobile phones use processors with **ARM-based** architectures while most of the computers use processors with **x86_64** architectures.
-- So, Android emulators **emulate (imitate)** everything about the Android system software-side to make Android applications and games run on computers and this process delivers **naturally poor** performance especially if you do not have a powerful system.
+- So, Android emulators **emulate (imitate)** everything about the Android system to make Android applications and games run on computers. This process delivers **naturally poor** performance especially if you do not have a powerful system.
   - To explain further, Android emulators emulate:
     - **CPU Architecture:** They emulate **ARM** CPU architecture instead of using your CPU architecture natively.
       - **Android System Services and Kernel:** They emulate Android's kernel components in a virtual environment.
@@ -17,7 +17,7 @@ Mobile phones use processors with **ARM-based** architectures while most of the 
         - Storage
         - GPU rendering
         - Keyboard, mouse, controllers etc.
-- However, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **does not imitate** anything mentioned above but it directly uses **your own computer hardware and Linux kernel** to run Android on Linux. That's why there is **almost no performance loss**.
+- However, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **does not imitate** anything mentioned above. It directly uses **your own computer hardware and Linux kernel** to run Android on Linux. That's why there is **almost no performance loss**.
 ### Can I play all Android games through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid?
 No. Most of the Android games **do not support** x86_64 architecture. It is possible to install an **ARM translation layer** to make incompatible games compatible, however if that game does not support keyboard + mouse configuration, you will be unable to play it anyway.
 - Some Android games that support keyboard + mouse configuration are:
@@ -59,7 +59,7 @@ If you want, you can change the `--width` and `--height` values according to you
 ```
 sudo chmod +x yourfile.sh
 ```
-- Now we have the script that will automatically launch <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4d1fca1d-3f5b-4de8-af0a-7555255af4f2" /> X11 without issues. However, running `./yourfile.sh` command every time you want to use Waydroid can be annoying. That's why, let's make it look like an app!
+- Now we have the script that will automatically launch <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4d1fca1d-3f5b-4de8-af0a-7555255af4f2" /> X11 without issues. However, running `./yourfile.sh` command every time you want to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid can be annoying. That's why, let's make it look like an app!
 - Create a file with `.desktop` file extension and open it using a text editor.
   - Your file's content should be:
 ```
@@ -76,7 +76,7 @@ After saving the changes, move the file to the necessary location to make your s
 ```
 sudo mv yourfile.desktop ~/.local/share/applications/
 ```
-- After that, you should see an app called **Waydroid-X11** in your applications list. You can comfortably start launching <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid using that shortcut on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4d1fca1d-3f5b-4de8-af0a-7555255af4f2" /> X11!
+- After that, you should see an app called <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> **Waydroid-X11** in your applications list. You can comfortably start launching <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid using that shortcut on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4d1fca1d-3f5b-4de8-af0a-7555255af4f2" /> X11!
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Hybrid Graphics Setup
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid does not run on hybrid graphics (computers with two GPUs) setup. So that's why we should make Waydroid use the integrated GPU.
 ```
@@ -97,12 +97,12 @@ This issue generally occurs from the firewall your system is using.
 - Next, for MicroG configuration, open **microG Settings** app and:
   - Enable `Google device registration`, `Cloud Messaging` and `Google SafetyNet`.
 - After these steps, you can finally start downloading your favourite software!
-- When you close Waydroid, it generally keeps running in the background. If you would like to stop it from running in the background, you should execute the command below:
+- When you close <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid, it generally keeps running in the background. If you would like to stop it from running in the background, you should execute the command below:
 ```
 waydroid session stop
 ```
 ### Notes
-- On your Linux system, you might see the Android apps inside Waydroid in your applications list and you might find seeing them annoying. To hide them:
+- On your Linux system, you might see the Android apps inside <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid in your applications list and you might find seeing them annoying. To hide them:
   - Go to `~/.local/share/applications/` location and edit all `.desktop` files that belong to <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid one by one.
     - What we are going to do while editing the files using a text editor is adding `NoDisplay=true` at the end of the `[Desktop Entry]` section of each `.desktop` file that belongs to <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
   - After saving the changes, the icons should be hidden from your applications list in a few minutes. Removing the .desktop files would not work because they would be added again after running <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
