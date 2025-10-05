@@ -99,7 +99,7 @@ waydroid session stop
 ```
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Internet Connection Issue
 This issue generally occurs from the **firewall** your system is using.
-- This step is explained in [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
+- This step is explained in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/17e40f3d-086e-4979-bd7a-786ce5864c66" /> [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
 ## Post-Installation
 - First of all, I suggest that you **install <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store** as a <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/abd68b9b-79ab-4062-a28c-54edff49e54e" /> **Google Play Store** alternative.
     - You can download <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store [from this link](https://f-droid.org/en/packages/com.aurora.store/).
@@ -123,4 +123,4 @@ waydroid prop set persist.waydroid.height [value]
 ```
 - Now you are **ready to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid!**
 # Conclusion
-This guide was about Waydroid installation and configuration. I hope the guide has been useful. Thank you for reading, have a nice day! 🐧
+This guide was about Waydroid installation and configuration. I hope the guide has been useful. Thank you for reading, have a nice day! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
