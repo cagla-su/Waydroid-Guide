@@ -1,7 +1,7 @@
 # Table of Contents
 - [Questions](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#questions)
     - [What is Waydroid?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#what-is--waydroid) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
-    - [How does Waydroid differ from Android emulators?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#what-is--waydroid) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> 
+    - [How does Waydroid differ from Android emulators?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#how-does--waydroid-differ-from--android-emulators) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> 
     - [Can I play all Android games through Waydroid?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#can-i-play-all-android-games-through--waydroid) <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" />  <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
 - [Before Starting](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#before-starting)
 - [Get Started](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started)
@@ -53,7 +53,7 @@ Before starting, you should be aware of the fact that <img width="16" height="25
 - You are now **officially ready to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid**.
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Tweaks
 ### Run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11
-- Simply **apply the** [previous steps](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started----wayland) to install <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid properly.
+- Simply **apply the** [previous steps](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started) to install <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid properly.
 - After applying the previous steps, **install** `weston` package using your package manager.
 - Next, **create a file** and **name it** as you wish. **Change the file's extension** as `.sh` and **edit the file** using a text editor.
   - Your bash script's content **should look like this**:
