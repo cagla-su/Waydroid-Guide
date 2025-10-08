@@ -4,12 +4,12 @@
     - [How does Waydroid differ from Android emulators?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#what-is--waydroid) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> 
     - [Can I play all Android games through Waydroid?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#can-i-play-all-android-games-through--waydroid) <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" />  <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
 - [Before Starting](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#before-starting)
-- [Get Started - Wayland](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started----wayland) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" />
+- [Get Started](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started)
+- [Waydroid Tweaks](https://github.com/cagla-su/Waydroid-Guide/tree/main?tab=readme-ov-file#-waydroid-tweaks)
     - [Run Waydroid on X11](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#run--waydroid-on--x11) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" />
     - [Hybrid Graphics Setup](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#hybrid-graphics-setup)
     - [Internet Connection Issue](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#internet-connection-issue)
-- [Post-Installation](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#post-installation)
-    - [Notes](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#notes)
+- [Notes](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#notes)
 - [Conclusion](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#conclusion)
 # Waydroid Guide
 Hello. In this guide, you will be informed about **what is <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid and how to install/configure it**. If you are ready, let's begin!
@@ -29,26 +29,27 @@ Mobile phones use processors with **ARM-based** architectures while most of the 
     - However, this **does not mean** that all games **will start working** after installing an ARM translation layer.
 - You can make some games that **partially** support PC controls support them **completely** using [scrcpy](https://github.com/Genymobile/scrcpy). It is easy to use scrcpy, simply [install the package following the instructions](https://github.com/Genymobile/scrcpy/blob/master/doc/linux.md) and execute `scrcpy` command in your terminal after launching <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
   - **Some** popular <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games that **natively support keyboard and/or mouse configurations** are:
-    - Roblox - *keyboard + mouse*
-    - Minecraft: Pocket Edition - *keyboard + mouse*
-    - PUBG Mobile - *keyboard + mouse* (it is hard to aim and shoot at the same time because it does not work like <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android emulators)
-    - Mobile Legends: Bang Bang - *keyboard + limited mouse support, can be fixed using "scrcpy"*
-    - Asphalt Legends - *mouse*
-    - Shadow Fight 3 - *keyboard + mouse* (2 and 4 work with mouse but it is not possible to move and attack at the same time)
-    - Subway Surfers - *keyboard*
-    - Geometry Dash Series - *mouse*
-    - Angry Birds Series - *mouse*
-    - Candy Crush Series (and other King games) - *mouse*
-    - Clash Royale (and other Supercell games) - *mouse*
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/26dec68d-79c7-4f82-875a-ab1a21bb11f5" /> **Roblox** - *keyboard + mouse*
+    - <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> **Minecraft: Pocket Edition** - *keyboard + mouse*
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/32a419a2-833c-4831-b274-483ccea67497" /> **PUBG Mobile** - *keyboard + mouse* (it is hard to aim and shoot at the same time because it does not work like <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android emulators)
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a8b6315f-3ed8-4463-98f6-42ccb8c2ed96" /> **Mobile Legends: Bang Bang** - *keyboard + limited mouse support, can be fixed using "scrcpy"*
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f56ff322-e58f-4cbe-97d2-52e20371f169" /> **Asphalt Legends** - *mouse*
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b2d2b81e-7dbd-4966-9597-49007c5ede65" /> **Shadow Fight 3** - *keyboard + mouse* (2 and 4 work with mouse but it is not possible to move and attack at the same time)
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/9f6735c8-b0bc-45c9-83b0-5a0eb70af3fd" /> **Subway Surfers** - *keyboard*
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7e2863a6-6dca-467b-9570-d10424917b79" /> **Geometry Dash** Series - *mouse*
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b1dd7b37-fe47-4ddc-850a-0d024b7837fd" /> **Angry Birds** Series - *mouse*
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/98707f14-2a4e-43b4-be96-51e42f5a687a" /> **Candy Crush** Series (and other King games) - *mouse*
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/56449c8c-1ca6-467a-9a8a-06ede7106448" /> **Clash Royale** (and other Supercell games) - *mouse*
 ## Before Starting
 Before starting, you should be aware of the fact that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **only runs on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland!** So if you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11, you should **apply some extra steps**.
-## Get Started - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland
+## Get Started
 - First of all, **install** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid [following the steps according to your Linux distribution](https://docs.waydro.id/usage/install-on-desktops).
 - Next, **execute** `sudo waydroid init` command in your terminal to install <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
 - Next, **install** [this script](https://github.com/casualsnek/waydroid_script) to configure <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid with an easier way.
   - If you are confused, [install the required dependency package for your Linux distribution](https://github.com/casualsnek/waydroid_script?tab=readme-ov-file#dependencies) first and [execute the specified commands in your terminal](https://github.com/casualsnek/waydroid_script?tab=readme-ov-file#interactive-terminal-interface) to run the script.
 - After successfully running the script, follow these steps:
-  - `Android 13` **-** `Install` **-** `Select "libhoudini (or libndk if you use an AMD CPU)" using Space button` **-** `Enter`
+  - `Android 13` **-** `Install` **-** `Select "gapps" and "libhoudini (or libndk if you use an AMD CPU)" using Space button` **-** `Enter`
+  - `Run the script again` **-** `Android 13` **-** `Get Google Device ID to Get Certified` **-** `Open the link that the script shows you and enter the ID (numbers) you see on your terminal`
 - You are now **officially ready to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid**.
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Tweaks
 ### Run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11
@@ -104,12 +105,6 @@ waydroid session stop
 ### Internet Connection Issue
 This issue generally occurs from the **firewall** your system is using.
 - This step is explained in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/17e40f3d-086e-4979-bd7a-786ce5864c66" /> [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
-## Post-Installation
-- First of all, I suggest that you **install <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store** as a <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/abd68b9b-79ab-4062-a28c-54edff49e54e" /> **Google Play Store** alternative.
-    - You can download <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store [from this link](https://f-droid.org/en/packages/com.aurora.store/).
-- After installing <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store, you should **install and configure <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2acef641-cfdf-4dcd-a5d8-be0eba79d567" /> MicroG** [following my MicroG guide](https://github.com/cagla-su/MicroG-Guide).
-- Finally, **launch** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60ac7bde-b53b-446d-96e6-d7d5eb0d94f9" /> Aurora Store and **complete the beginning steps**.
-- After **completing** these steps, you are **ready to install** your favourite applications!
 ## Notes
 - When you **exit <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid**, it **keeps running in the background**. If you would like to **stop it** from **running in the background**, you should **execute the command below**:
 ```
