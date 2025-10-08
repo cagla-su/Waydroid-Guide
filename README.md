@@ -5,9 +5,9 @@
     - [Can I play all Android games through Waydroid?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#can-i-play-all-android-games-through--waydroid) <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" />  <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
 - [Before Starting](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#before-starting)
 - [Get Started - Wayland](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started----wayland) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" />
-    - [How to Run Waydroid on X11?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#how-to-run--waydroid-on--x11) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" />
-    - [Waydroid Hybrid Graphics Setup](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#-waydroid-hybrid-graphics-setup) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
-    - [Waydroid Internet Connection Issue](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#-waydroid-internet-connection-issue) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
+    - [Run Waydroid on X11](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#run--waydroid-on--x11) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" />
+    - [Hybrid Graphics Setup](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#hybrid-graphics-setup)
+    - [Internet Connection Issue](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#internet-connection-issue)
 - [Post-Installation](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#post-installation)
     - [Notes](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#notes)
 - [Conclusion](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#conclusion)
@@ -25,18 +25,21 @@ Mobile phones use processors with **ARM-based** architectures while most of the 
 - However, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **does not emulate anything** mentioned above. It **directly uses your own computer hardware and Linux kernel** to run <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android on Linux. That's why there is **almost no performance loss**.
 ### Can I play all Android games through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid?
 - **No**. Most of the <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games **do not support x86_64** architecture.
-- It is possible to install an **ARM translation layer** to make **incompatible games compatible**.
-- However, if the game **does not** support keyboard + mouse configuration, you will be **unable to play** it anyway.
-  - Some <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games that **natively support keyboard + mouse configuration** are:
-    - Roblox
-    - Minecraft: Pocket Edition
-    - Subway Surfers
-    - aa (and derivatives)
-    - Stardew Valley
-    - Asphalt 8
-    - Geometry Dash
-    - Shadow Fight 3
-  - Other than the mentioned games, many <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games like **Angry Birds, Stick Hero etc.** that only require a touchscreen **can be played through mouse**.
+- It is possible to install an **ARM translation layer** to make **some incompatible games compatible**.
+    - However, this **does not mean** that all games **will start working** after installing an ARM translation layer.
+- You can make some games that **partially** support PC controls support them **completely** using [scrcpy](https://github.com/Genymobile/scrcpy). It is easy to use scrcpy, simply [install the package following the instructions](https://github.com/Genymobile/scrcpy/blob/master/doc/linux.md) and execute `scrcpy` command in your terminal after launching <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
+  - **Some** popular <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games that **natively support keyboard and/or mouse configurations** are:
+    - Roblox - *keyboard + mouse*
+    - Minecraft: Pocket Edition - *keyboard + mouse*
+    - PUBG Mobile - *keyboard + mouse* (it is hard to aim and shoot at the same time because it does not work like <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android emulators)
+    - Mobile Legends: Bang Bang - *keyboard + limited mouse support, can be fixed using "scrcpy"*
+    - Asphalt Legends - *mouse*
+    - Shadow Fight 3 - *keyboard + mouse* (2 and 4 work with mouse but it is not possible to move and attack at the same time)
+    - Subway Surfers - *keyboard*
+    - Geometry Dash Series - *mouse*
+    - Angry Birds Series - *mouse*
+    - Candy Crush Series (and other King games) - *mouse*
+    - Clash Royale (and other Supercell games) - *mouse*
 ## Before Starting
 Before starting, you should be aware of the fact that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **only runs on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland!** So if you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11, you should **apply some extra steps**.
 ## Get Started - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland
@@ -47,7 +50,8 @@ Before starting, you should be aware of the fact that <img width="16" height="25
 - After successfully running the script, follow these steps:
   - `Android 13` **-** `Install` **-** `Select "libhoudini (or libndk if you use an AMD CPU)" using Space button` **-** `Enter`
 - You are now **officially ready to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid**.
-## How to Run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11?
+## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Tweaks
+### Run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11
 - Simply **apply the** [previous steps](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started----wayland) to install <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid properly.
 - After applying the previous steps, **install** `weston` package using your package manager.
 - Next, **create a file** and **name it** as you wish. **Change the file's extension** as `.sh` and **edit the file** using a text editor.
@@ -85,7 +89,7 @@ After **saving** the changes, **move the file** to the **specific location** to 
 sudo mv yourfile.desktop ~/.local/share/applications/
 ```
 - Finally, you should **see an app** called <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> **Waydroid-X11** in your **applications list**. You can **start launching <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid** using that **shortcut** on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11!
-## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Hybrid Graphics Setup
+### Hybrid Graphics Setup
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid is **unable to run on hybrid graphics** (computers with two GPUs) **setup**. That's why you should **make Waydroid use** the **integrated GPU**.
 ```
 sudo nano /var/lib/waydroid/waydroid_base.prop
@@ -97,7 +101,7 @@ ro.hardware.egl=mesa
 ```
 waydroid session stop
 ```
-## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Internet Connection Issue
+### Internet Connection Issue
 This issue generally occurs from the **firewall** your system is using.
 - This step is explained in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/17e40f3d-086e-4979-bd7a-786ce5864c66" /> [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
 ## Post-Installation
@@ -116,7 +120,7 @@ waydroid session stop
     - While editing the files, **add** `NoDisplay=true` at the end of the `[Desktop Entry]` section of **each `.desktop` file** that belongs to <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
   - After **saving** the changes, the **icons should be hidden** from your applications list **in a few minutes**.
     - **Removing** the .desktop files instead **would not work** because they would **be added again after running <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid**.
-- Also, if you are **using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland** and if you want to **change default screen resolution**, you should **execute the command** below in terminal while <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid is **still running**:
+- Lastly, if you want to **change the default screen resolution permanently**, you should **execute the command** below in terminal while <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid is **still running**:
 ```
 waydroid prop set persist.waydroid.width [value]
 waydroid prop set persist.waydroid.height [value]
