@@ -37,15 +37,15 @@ Bilgisayarların çoğu **x86_64** mimarili işlemciler kullanırken mobil <img 
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f56ff322-e58f-4cbe-97d2-52e20371f169" /> **Asphalt Legends** - *fare*
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b2d2b81e-7dbd-4966-9597-49007c5ede65" /> **Shadow Fight 3** - *klavye + fare* (2 ve 4 serileri de fare ile çalışmaktadır fakat o serilerde aynı anda hem hareket etmek hem de vurmak zor olacaktır)
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/9f6735c8-b0bc-45c9-83b0-5a0eb70af3fd" /> **Subway Surfers** - *klavye*
-    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7e2863a6-6dca-467b-9570-d10424917b79" /> **Geometry Dash** Series - *fare*
-    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b1dd7b37-fe47-4ddc-850a-0d024b7837fd" /> **Angry Birds** Series - *fare*
-    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/98707f14-2a4e-43b4-be96-51e42f5a687a" /> **Candy Crush** Series (and other King games) - *mouse*
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7e2863a6-6dca-467b-9570-d10424917b79" /> **Geometry Dash** Serisi - *fare*
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b1dd7b37-fe47-4ddc-850a-0d024b7837fd" /> **Angry Birds** Serisi - *fare*
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/98707f14-2a4e-43b4-be96-51e42f5a687a" /> **Candy Crush** Serisi (ve diğer King oyunlar) - *fare*
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/56449c8c-1ca6-467a-9a8a-06ede7106448" /> **Clash Royale** (ve diğer Supercell oyunları) - *fare*
 ## Başlamadan Önce
 Başlamadan önce, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'in **yalnızca <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland'de** çalıştığını bilmelisiniz. Yani eğer <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11 kullanıyorsanız, bazı **ek adımlar uygulamalısınız**.
 ## Başlangıç
 - Öncelikle <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'i [Linux dağıtımınıza göre verilen adımları takip ederek](https://docs.waydro.id/usage/install-on-desktops) **yükleyin**.
-- Ardından, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid içerisine <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android'i yüklemek için `sudo waydroid init` komutunu terminalinizde çalıştırın.
+- Ardından, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid içerisinde <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android'i yüklemek için `sudo waydroid init` komutunu terminalinizde çalıştırın.
 - Ardından, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'i daha kolay bir şekilde yapılandırmak için [bu Waydroid betik dosyasını](https://github.com/casualsnek/waydroid_script) yükleyin.
 - Betik dosyasını çalıştırdıktan sonra aşağıdaki adımları takip edin:
   - `Android 13` **-** `Install` **-** `Boşluk tuşunu kullanarak "gapps" ve "libhoudini (AMD işlemci kullanıyorsanız "libndk" seçin)"` **-** `Enter`
@@ -53,9 +53,9 @@ Başlamadan önce, <img width="16" height="25" alt="image" src="https://github.c
 - Artık **resmen <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'i kullanabilirsiniz**.
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Ayarlamaları
 ### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11'de <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Çalıştırma 
-- Öncelikle, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'i [önceki adımlarda gösterildiği üzere]() yükleyin.
+- Öncelikle, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'i [önceki adımlarda gösterildiği üzere](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#ba%C5%9Flang%C4%B1%C3%A7) yükleyin.
 - Önceki adımları uyguladıktan sonra, paket yöneticinizi kullanarak `weston` paketini **yükleyin**.
-- Ardından, **bir dosya oluşturun** ve dilediğiniz şekilde **dosyaya bir isim verin**. Dosyanın uzantısını bir metin düzenleyicisi kullanarak `.sh` olarak **değiştirin**.
+- Ardından, **bir dosya oluşturun** ve dilediğiniz şekilde **dosyaya bir isim verin**. Dosyanın uzantısını `.sh` olarak **değiştirin** ve bir metin düzenleyicisiyle düzenleyin.
   - Bash betik dosyanızın içeriği **şu şekilde görünmelidir**:
 ```
 #!/bin/bash
@@ -65,7 +65,7 @@ sleep 3
 waydroid session start
 WAYLAND_DISPLAY=waydroid-1 waydroid show-full-ui
 ```
-İsterseniz, `--width` (genişlik) ve `--height` (yükseklik) değerlerini dilediğiniz bir değer olarak değiştirebilirsiniz.
+İsterseniz, `--width` **(genişlik)** ve `--height` **(yükseklik)** değerlerini dilediğiniz bir değer ile değiştirebilirsiniz.
 - Değişiklikleri **kaydettikten** sonra, dosyayı **konumunu hatırlayacağınız bir konuma taşıyın**.
 - Ardından, **terminali o konumda çalıştırın** ve aşağıdaki komutu **çalıştırarak dosyaya gerekli izinleri verin**:
 ```
@@ -78,7 +78,7 @@ sudo chmod +x dosyanız.sh
 ```
 [Desktop Entry]
 Name=Waydroid-X11
-Comment=Launch Waydroid inside Weston
+Comment=Weston içerisinde Waydroid çalıştırma
 Exec=sh -c '~/dosyanıza/giden/konum.sh'
 Icon=waydroid
 Terminal=false
