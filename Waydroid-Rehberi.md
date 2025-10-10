@@ -1,16 +1,16 @@
 # İçindekiler
-- [Sorular]()
-    - [Waydroid nedir?]() <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
-    - [Waydroid'in diğer Android emülatörlerinden farkı nedir?]() <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> 
-    - [Waydroid ile tüm Android oyunlarını oynayabilir miyim?]() <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" />  <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
-- [Başlamadan Önce]()
-- [Başlangıç]()
-- [Waydroid Ayarlamaları]()
-    - [X11'de Waydroid'i Çalıştırma]() <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" />
-    - [Çift Grafikli Sistem Yapılandırması]()
-    - [Internet Bağlantısı Sorunu]()
-- [Notlar]()
-- [Kapanış]()
+- [Sorular](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#sorular)
+    - [Waydroid nedir?](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#-waydroid-nedir) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
+    - [Waydroid'in diğer Android emülatörlerinden farkı nedir?](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#-waydroidin-di%C4%9Fer--android-em%C3%BClat%C3%B6rlerinden-fark%C4%B1-nedir) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> 
+    - [Waydroid ile tüm Android oyunlarını oynayabilir miyim?](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#-waydroid-ile-t%C3%BCm--android-oyunlar%C4%B1n%C4%B1-oynayabilir-miyim) <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" />  <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
+- [Başlamadan Önce](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#ba%C5%9Flamadan-%C3%B6nce)
+- [Başlangıç](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#ba%C5%9Flang%C4%B1%C3%A7)
+- [Waydroid Ayarlamaları](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#-waydroid-ayarlamalar%C4%B1)
+    - [X11'de Waydroid'i Çalıştırma](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#-x11de--waydroid-%C3%A7al%C4%B1%C5%9Ft%C4%B1rma) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" />
+    - [Çift Grafikli Sistem Yapılandırması](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#%C3%A7ift-grafikli-sistem-yap%C4%B1land%C4%B1rmas%C4%B1)
+    - [Internet Bağlantısı Sorunu](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#i%CC%87nternet-ba%C4%9Flant%C4%B1s%C4%B1-sorunu)
+    - [Notlar](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#notlar)
+- [Kapanış](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#kapan%C4%B1%C5%9F)
 # Waydroid Rehberi
 Esenlikler. Bu rehberde **<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'in ne olduğu ve nasıl kurup yapılandırabileceğiniz** hakkında bilgilendirileceksiniz. Hazırsanız, başlayalım!
 ## Sorular
@@ -105,7 +105,7 @@ waydroid session stop
 ### İnternet Bağlantısı Sorunu
 Bu hata genellikle sisteminizin kullandığı **güvenlik duvarından** kaynaklanır.
 - Bu adım <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/17e40f3d-086e-4979-bd7a-786ce5864c66" /> [Arch Wiki'de](https://wiki.archlinux.org/title/Waydroid#Network) açıklanmıştır.
-## Notlar
+### Notlar
 - **<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'den çıktığınızda arka planda çalışmaya devam eder**. Eğer kapattığınızda **arka planda çalışmasını durdurmak** isterseniz, **aşağıdaki komutu çalıştırın**:
 ```
 waydroid session stop
