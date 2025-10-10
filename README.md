@@ -25,7 +25,7 @@ Mobile <img width="16" height="25" alt="image-removebg-preview(1)" src="https://
     - **<img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android system services and kernel**
     - **Device hardware and sensors**
 - However, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **does not emulate anything** mentioned above. It **directly uses your own computer hardware and Linux kernel** to run <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android on Linux. That's why there is **almost no performance loss**.
-### Can I play all Android games through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid?
+### Can I play all <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid?
 - **No**. Most of the <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games **do not support x86_64** architecture.
 - It is possible to install an **ARM translation layer** to make **some incompatible games compatible**.
     - However, this **does not mean** that all games **will start working** after installing an ARM translation layer.
