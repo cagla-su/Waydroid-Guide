@@ -93,7 +93,7 @@ sudo mv yourfile.desktop ~/.local/share/applications/
 ```
 - Finally, you should **see an app** called <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> **Waydroid-X11** in your **applications list**. You can **start launching <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid** using that **shortcut** on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11!
 ### Hybrid Graphics Setup
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid is **unable to run on hybrid graphics** (computers with two GPUs) **setup**. That's why you should **make Waydroid use** the **integrated GPU**.
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid is **unable to run on hybrid graphics** (computers with two GPUs) **setup**. That's why you should **make <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid use** the **integrated GPU**.
 ```
 sudo nano /var/lib/waydroid/waydroid_base.prop
 ```
