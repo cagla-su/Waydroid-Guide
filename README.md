@@ -28,12 +28,10 @@ Mobile <img width="16" height="25" alt="image-removebg-preview(1)" src="https://
 - **No**. Most of the <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games **do not support x86_64** architecture.
 - It is possible to install an **ARM translation layer** to make **some incompatible games compatible**.
     - However, this **does not mean** that all games **will start working** after installing an ARM translation layer.
-- You can make some games that **partially** support PC controls support them **completely** using [scrcpy](https://github.com/Genymobile/scrcpy). It is easy to use scrcpy, simply [install the package following the instructions](https://github.com/Genymobile/scrcpy/blob/master/doc/linux.md) and execute `scrcpy` command in your terminal after launching <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
-  - **Some** popular <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games that **natively support keyboard and/or mouse configurations** are:
+- **Some** popular <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games that **natively support keyboard and/or mouse configurations** are:
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/26dec68d-79c7-4f82-875a-ab1a21bb11f5" /> **Roblox** - *keyboard + mouse*
     - <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> **Minecraft: Pocket Edition** - *keyboard + mouse*
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/32a419a2-833c-4831-b274-483ccea67497" /> **PUBG Mobile** - *keyboard + mouse* (it is hard to aim and shoot at the same time because it does not work like <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android emulators)
-    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a8b6315f-3ed8-4463-98f6-42ccb8c2ed96" /> **Mobile Legends: Bang Bang** - *keyboard + limited mouse support, can be fixed using "scrcpy"*
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c3e34de1-8499-4136-8a18-e2b1e14c70fc" /> **Honkai Impact** - *keyboard + mouse* (it is hard to change camera and attack at the same time)
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f56ff322-e58f-4cbe-97d2-52e20371f169" /> **Asphalt Legends** - *mouse*
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b2d2b81e-7dbd-4966-9597-49007c5ede65" /> **Shadow Fight 3** - *keyboard + mouse* (2 and 4 work with mouse but it is hard to move and attack at the same time)
@@ -63,8 +61,8 @@ Before starting, you should be aware of the fact that <img width="16" height="25
 <img width="548" height="125" alt="image" src="https://github.com/user-attachments/assets/1b427367-a0c1-41db-b963-12fa4e1b9796" />
 
 - Lastly, go to `Details` and click `Retrieve GSF ID`.
-    - Copy the numbers you see and click `Open registration page`. Paste the numbers to the website that opened and click `Register`.
-    - Make sure to restart <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid after completing the steps.
+    - **Copy** the numbers you see and click `Open registration page`. **Paste** the numbers to the website that opened and click `Register`.
+    - Make sure to **restart <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid** after completing the steps.
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Tweaks
 ### Run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11
 - Install `weston` package using your package manager.
