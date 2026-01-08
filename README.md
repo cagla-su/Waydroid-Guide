@@ -7,7 +7,6 @@
 - [Get Started](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started)
 - [Waydroid Tweaks](https://github.com/cagla-su/Waydroid-Guide/tree/main?tab=readme-ov-file#-waydroid-tweaks)
     - [Run Waydroid on X11](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#run--waydroid-on--x11) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" />
-    - [Hybrid Graphics Setup](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#hybrid-graphics-setup)
     - [Internet Connection Issue](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#internet-connection-issue)
     - [Notes](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#notes)
 - [Conclusion](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#conclusion)
@@ -46,89 +45,38 @@ Mobile <img width="16" height="25" alt="image-removebg-preview(1)" src="https://
 ## Before Starting
 Before starting, you should be aware of the fact that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **only runs on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland!** So if you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11, you should **apply some extra steps**.
 ## Get Started
-- First of all, **install** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid [following the steps according to your Linux distribution](https://docs.waydro.id/usage/install-on-desktops). You can install either vanilla or gapps depending on your choice.
-- Next, **execute the command below** in your terminal for enabling and starting <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid:
-```
-sudo systemctl enable --now waydroid-container.service && sudo waydroid session start # you will not see Waydroid launching, it will just start running in the background
-```
-- Next, **install** [this Waydroid script](https://github.com/casualsnek/waydroid_script) to configure <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid with an easier way.
-    - If the script tells you that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid should not be running in the background during the configuration, you can **kill it** by **executing the command below**:
-```
-sudo waydroid session stop
-```
-- After successfully running the script, follow these steps:
-  - `Android 13` **-** `Install` **-** `Select "gapps" (only if you chose vanilla while installing) and "libhoudini (or libndk if you use an AMD CPU)" using Space button` **-** `Enter`
-  - `Run the script again` **-** `Android 13` **-** `Get Google Device ID to Get Certified` **-** `Open the link that the script shows you and enter the ID (numbers) you see on your terminal`
+- First of all, **install** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid [following the steps according to your Linux distribution](https://docs.waydro.id/usage/install-on-desktops). Please make sure to install vanilla version, which is the opposite of gapps.
+- Next, install [Waydroid Helper](https://github.com/waydroid-helper/waydroid-helper) according to your distribution.
+- After successfully installing and running the application, click this button to configure <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid:
+<img width="630" height="180" alt="image" src="https://github.com/user-attachments/assets/4e1724b4-8a62-4253-bf2f-5f8466fa94ce" />
+
+- Next, go to `Extensions` and install `LiteGapps-Lite`
+- Then, scroll down and install `houdini` (for Intel CPUs) or `ndk_translation` (for AMD CPUs)
+- Click this button to go back and run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
+<img width="630" height="180" alt="image" src="https://github.com/user-attachments/assets/9a82542b-6835-4bf8-9b48-290749de63d5" />
+<img width="630" height="318" alt="image" src="https://github.com/user-attachments/assets/4db2f99f-cd0b-43ce-9004-561fe6533c64" />
+
+- Once you saw the app saying that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid session is running, go to configure it again and go to `Settings`.
+- Now scroll down and find `gpu`.
+    - If you have a hybrid graphics setup (1 integrated + 1 dedicated GPU), make sure to choose your **integrated GPU** because <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **does not support hybrid graphics**.
+    - If you additionally would like to change <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid's screen resolution permanently, scroll up and find `persist.waydroid.width` and `persist.waydroid.height` and change the values to your liking.
+<img width="548" height="125" alt="image" src="https://github.com/user-attachments/assets/1b427367-a0c1-41db-b963-12fa4e1b9796" />
+
+- Lastly, go to `Details` and click `Retrieve GSF ID`.
+    - Copy the numbers you see and click `Open registration page`. From the opened website, paste the command and click `Register`.
+    - Make sure to restart Waydroid after completing the steps.
 - You are **ready to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid** now.
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Tweaks
 ### Run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11
-- Simply **apply the** [previous steps](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started) to install <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid properly.
-- After applying the previous steps, **install** `weston` package using your package manager.
-- Next, **create a file** and **name it** as you wish. **Change the file's extension** as `.sh` and **edit the file** using a text editor.
-  - Your bash script's content **should look like this**:
-```
-#!/bin/bash
-
-WAYLAND_DISPLAY=waydroid-1 weston --socket=waydroid-1 --backend=x11-backend.so --width=1280 --height=720 &
-sleep 3
-waydroid session start
-WAYLAND_DISPLAY=waydroid-1 waydroid show-full-ui
-```
-If you want, you can change the `--width` and `--height` values according to your liking.
-- After **saving** the changes, **move the file** to a location that you will be able to **remember the path**.
-- Next, **open terminal** in that location and **give your file the necessary permissions** by **executing the command below**:
-```
-sudo chmod +x yourfile.sh
-```
-- Now you have the script that **automatically launches <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid** on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11 without issues.
-- However, running `./yourfile.sh` command every time you want to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **can be annoying**. That's why, let's **make it look like an application!**
-- **Create a file** with `.desktop` file extension and **edit it** using a text editor.
-  - Your file's content **should look like this**:
-```
-[Desktop Entry]
-Name=Waydroid-X11
-Comment=Launch Waydroid inside Weston
-Exec=sh -c '~/location/of/yourfile.sh'
-Icon=waydroid
-Terminal=false
-Type=Application
-Categories=System;
-```
-After **saving** the changes, **move the file** to the **specific location** to **make your system detect it as an application executing the command below**:
-```
-sudo mv yourfile.desktop ~/.local/share/applications/
-```
-- Finally, you should **see an app** called <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> **Waydroid-X11** in your **applications list**. You can **start launching <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid** using that **shortcut** on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11!
-### Hybrid Graphics Setup
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid is **unable to run on hybrid graphics** (computers with two GPUs) **setup**. That's why you should **make <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid use** the **integrated GPU**.
-```
-sudo nano /var/lib/waydroid/waydroid_base.prop
-```
-```
-ro.hardware.gralloc=default
-ro.hardware.egl=mesa
-```
-```
-waydroid session stop
-```
+- Install `weston` package using your package manager.
+- Inside Waydroid Helper, go to `Scripts` and click `Launch Waydroid with Weston`.
+- This is how you can run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on X11!
 ### Internet Connection Issue
 This issue generally occurs from the **firewall** your system is using.
 - This step is explained in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/17e40f3d-086e-4979-bd7a-786ce5864c66" /> [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
-### Notes
-- When you **exit <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid**, it **keeps running in the background**. If you would like to **kill it entirely**, you should **execute the command below**:
-```
-waydroid session stop
-```
-- On your Linux system, you might see the <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> **Android apps in your applications list**. If you would like to **hide them**:
-  - Go to `~/.local/share/applications/` and **edit all `.desktop` files** that belong to <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **one by one**.
-    - While editing the files, **add** `NoDisplay=true` at the end of the `[Desktop Entry]` section of **each `.desktop` file** that belongs to <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
-  - After **saving** the changes, the **icons should be hidden** from your applications list **in a few minutes**.
-    - **Removing** the .desktop files instead **would not work** because they would **be added again after running <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid**.
-- Lastly, if you want to **change the default screen resolution permanently**, you should **execute the command** below in terminal while <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid is **still running**:
-```
-waydroid prop set persist.waydroid.width [value]
-waydroid prop set persist.waydroid.height [value]
-```
+### Hiding <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Application Shortcuts
+- You might have noticed that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid application shortcuts are seen on your Linux applications list. In order to hide them:
+    - Inside Waydroid Helper, go to `Scripts` and click `Toggle Waydroid App Icons`, make sure to restart your Linux system for applying changes.
 - Now you are **ready to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid!**
 # Conclusion
 This guide was about Waydroid installation and configuration. I hope the guide has been useful. Thank you for reading, have a nice day! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
