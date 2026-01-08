@@ -74,5 +74,5 @@ Bu hata genellikle sisteminizin kullandığı **güvenlik duvarından** kaynakla
     - Waydroid Helper içerisindeyken `Scripts`'e gidin ve `Toggle Waydroid App Icons`'a tıklayın, değişiklikleri uygulamak için **Linux sisteminizi yeniden başlattığınızdan** emin olun.
 - Artık **<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'i kullanmak için hazırsınız!**
 # Kapanış
-Bu rehber Waydroid kurulumu ve yapılandırması hakkındaydı. Umarım rehber faydalı olmuştur. Okuduğunuz için teşekkürler, iyi günler! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
+Bu rehber Waydroid kurulumu ve yapılandırması hakkındaydı. Umarım bu rehber sizin için faydalı olmuştur. Okuduğunuz için teşekkürler! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
 
