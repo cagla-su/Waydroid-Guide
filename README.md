@@ -5,10 +5,10 @@
     - [Can I play all Android games through Waydroid?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#can-i-play-all--android-games-through--waydroid) <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" />  <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
 - [Before Starting](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#before-starting)
 - [Get Started](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started)
-- [Waydroid Tweaks](https://github.com/cagla-su/Waydroid-Guide/tree/main?tab=readme-ov-file#-waydroid-tweaks)
+- [Waydroid Tweaks](https://github.com/cagla-su/Waydroid-Guide/tree/main?tab=readme-ov-file#-waydroid-tweaks) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
     - [Run Waydroid on X11](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#run--waydroid-on--x11) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" />
     - [Internet Connection Issue](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#internet-connection-issue)
-    - [Notes](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#notes)
+    - [Hiding Waydroid Application Shortcuts](https://github.com/cagla-su/Waydroid-Guide/tree/main?tab=readme-ov-file#hiding--waydroid-application-shortcuts) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
 - [Conclusion](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#conclusion)
 ## Türkçe Çeviri 🇹🇷
 Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md). Birebir çeviri değildir ama içerik aynıdır.
@@ -45,8 +45,8 @@ Mobile <img width="16" height="25" alt="image-removebg-preview(1)" src="https://
 ## Before Starting
 Before starting, you should be aware of the fact that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **only runs on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland!** So if you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11, you should **apply some extra steps**.
 ## Get Started
-- First of all, **install** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid [following the steps according to your Linux distribution](https://docs.waydro.id/usage/install-on-desktops). Please make sure to install vanilla version, which is the opposite of gapps.
-- Next, install [Waydroid Helper](https://github.com/waydroid-helper/waydroid-helper) according to your distribution.
+- First of all, **install** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid [following the steps according to your Linux distribution](https://docs.waydro.id/usage/install-on-desktops). Please make sure to install **vanilla** version, which is **the opposite of gapps**.
+- Next, **install** [Waydroid Helper](https://github.com/waydroid-helper/waydroid-helper) according to your distribution.
 - After successfully installing and running the application, click this button to configure <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid:
 <img width="630" height="180" alt="image" src="https://github.com/user-attachments/assets/4e1724b4-8a62-4253-bf2f-5f8466fa94ce" />
 
@@ -56,16 +56,15 @@ Before starting, you should be aware of the fact that <img width="16" height="25
 <img width="630" height="180" alt="image" src="https://github.com/user-attachments/assets/9a82542b-6835-4bf8-9b48-290749de63d5" />
 <img width="630" height="318" alt="image" src="https://github.com/user-attachments/assets/4db2f99f-cd0b-43ce-9004-561fe6533c64" />
 
-- Once you saw the app saying that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid session is running, go to configure it again and go to `Settings`.
-- Now scroll down and find `gpu`.
-    - If you have a hybrid graphics setup (1 integrated + 1 dedicated GPU), make sure to choose your **integrated GPU** because <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **does not support hybrid graphics**.
-    - If you additionally would like to change <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid's screen resolution permanently, scroll up and find `persist.waydroid.width` and `persist.waydroid.height` and change the values to your liking.
+- Once you saw the app saying that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid session is running, go to the configuration page and click `Settings`.
+- If you have a **hybrid graphics setup** (1 integrated + 1 dedicated GPU), scroll down and find `gpu`.
+    - From `gpu`, select your **integrated GPU** because <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **does not support hybrid graphics**.
+- If you additionally would like to change <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid's screen resolution permanently, scroll up and find `persist.waydroid.width` and `persist.waydroid.height` and change the values to your liking.
 <img width="548" height="125" alt="image" src="https://github.com/user-attachments/assets/1b427367-a0c1-41db-b963-12fa4e1b9796" />
 
 - Lastly, go to `Details` and click `Retrieve GSF ID`.
-    - Copy the numbers you see and click `Open registration page`. From the opened website, paste the command and click `Register`.
-    - Make sure to restart Waydroid after completing the steps.
-- You are **ready to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid** now.
+    - Copy the numbers you see and click `Open registration page`. Paste the numbers to the website that opened and click `Register`.
+    - Make sure to restart <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid after completing the steps.
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Tweaks
 ### Run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11
 - Install `weston` package using your package manager.
@@ -75,8 +74,8 @@ Before starting, you should be aware of the fact that <img width="16" height="25
 This issue generally occurs from the **firewall** your system is using.
 - This step is explained in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/17e40f3d-086e-4979-bd7a-786ce5864c66" /> [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
 ### Hiding <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Application Shortcuts
-- You might have noticed that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid application shortcuts are seen on your Linux applications list. In order to hide them:
-    - Inside Waydroid Helper, go to `Scripts` and click `Toggle Waydroid App Icons`, make sure to restart your Linux system for applying changes.
+- You might have noticed that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid application shortcuts are **seen on your Linux applications list**. In order to hide them:
+    - Inside Waydroid Helper, go to `Scripts` and click `Toggle Waydroid App Icons`, make sure to **restart your Linux system** for applying changes.
 - Now you are **ready to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid!**
 # Conclusion
 This guide was about Waydroid installation and configuration. I hope the guide has been useful. Thank you for reading, have a nice day! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
