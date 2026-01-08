@@ -46,13 +46,20 @@ Mobile <img width="16" height="25" alt="image-removebg-preview(1)" src="https://
 ## Before Starting
 Before starting, you should be aware of the fact that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **only runs on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland!** So if you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11, you should **apply some extra steps**.
 ## Get Started
-- First of all, **install** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid [following the steps according to your Linux distribution](https://docs.waydro.id/usage/install-on-desktops).
-- Next, **execute** `sudo waydroid init` command in your terminal to install <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
+- First of all, **install** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid [following the steps according to your Linux distribution](https://docs.waydro.id/usage/install-on-desktops). You can install either vanilla or gapps depending on your choice.
+- Next, **execute the command below** in your terminal for enabling and starting <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid:
+```
+sudo systemctl enable --now waydroid-container.service && sudo waydroid session start # you will not see Waydroid launching, it will just start running in the background
+```
 - Next, **install** [this Waydroid script](https://github.com/casualsnek/waydroid_script) to configure <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid with an easier way.
+    - If the script tells you that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid should not be running in the background during the configuration, you can **kill it** by **executing the command below**:
+```
+sudo waydroid session stop
+```
 - After successfully running the script, follow these steps:
-  - `Android 13` **-** `Install` **-** `Select "gapps" and "libhoudini (or libndk if you use an AMD CPU)" using Space button` **-** `Enter`
+  - `Android 13` **-** `Install` **-** `Select "gapps" (only if you chose vanilla while installing) and "libhoudini (or libndk if you use an AMD CPU)" using Space button` **-** `Enter`
   - `Run the script again` **-** `Android 13` **-** `Get Google Device ID to Get Certified` **-** `Open the link that the script shows you and enter the ID (numbers) you see on your terminal`
-- You are now **officially ready to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid**.
+- You are **ready to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid** now.
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid Tweaks
 ### Run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11
 - Simply **apply the** [previous steps](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started) to install <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid properly.
@@ -69,7 +76,7 @@ WAYLAND_DISPLAY=waydroid-1 waydroid show-full-ui
 ```
 If you want, you can change the `--width` and `--height` values according to your liking.
 - After **saving** the changes, **move the file** to a location that you will be able to **remember the path**.
-- Next, **open terminal** in that location and **give your file the necessary permissions** by **executing** the command below:
+- Next, **open terminal** in that location and **give your file the necessary permissions** by **executing the command below**:
 ```
 sudo chmod +x yourfile.sh
 ```
@@ -87,7 +94,7 @@ Terminal=false
 Type=Application
 Categories=System;
 ```
-After **saving** the changes, **move the file** to the **specific location** to **make your system detect it as an application executing the command** below:
+After **saving** the changes, **move the file** to the **specific location** to **make your system detect it as an application executing the command below**:
 ```
 sudo mv yourfile.desktop ~/.local/share/applications/
 ```
@@ -108,7 +115,7 @@ waydroid session stop
 This issue generally occurs from the **firewall** your system is using.
 - This step is explained in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/17e40f3d-086e-4979-bd7a-786ce5864c66" /> [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
 ### Notes
-- When you **exit <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid**, it **keeps running in the background**. If you would like to **stop it** from **running in the background**, you should **execute the command below**:
+- When you **exit <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid**, it **keeps running in the background**. If you would like to **kill it entirely**, you should **execute the command below**:
 ```
 waydroid session stop
 ```
