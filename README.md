@@ -54,10 +54,10 @@ Before starting, you should be aware of the fact that <img width="16" height="25
 <img width="630" height="180" alt="image" src="https://github.com/user-attachments/assets/9a82542b-6835-4bf8-9b48-290749de63d5" />
 <img width="630" height="318" alt="image" src="https://github.com/user-attachments/assets/4db2f99f-cd0b-43ce-9004-561fe6533c64" />
 
-- Once you saw the app saying that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid session is running, go to the configuration page and click `Settings`.
-- If you have a **hybrid graphics setup** (1 integrated + 1 dedicated GPU), scroll down and find `gpu`.
+- Once you see the app saying that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> **Waydroid session is running**, go to the configuration page and click `Settings`.
+- If you have a **hybrid graphics setup** *(1 integrated + 1 dedicated GPU)*, scroll down and find `gpu`.
     - From `gpu`, select your **integrated GPU** because <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **does not support hybrid graphics**.
-- If you additionally would like to change <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid's screen resolution permanently, scroll up and find `persist.waydroid.width` and `persist.waydroid.height` and change the values to your liking.
+- If you additionally would like to **change <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid's screen resolution permanently**, scroll up and find `persist.waydroid.width` and `persist.waydroid.height` and change the values to your liking.
 <img width="548" height="125" alt="image" src="https://github.com/user-attachments/assets/1b427367-a0c1-41db-b963-12fa4e1b9796" />
 
 - Lastly, go to `Details` and click `Retrieve GSF ID`.
