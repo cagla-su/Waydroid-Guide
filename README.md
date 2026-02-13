@@ -68,6 +68,7 @@ Before starting, you should be aware of the fact that <img width="16" height="25
 - Install `weston` package using your package manager.
 - Inside Waydroid Helper, go to `Scripts` and click `Launch Waydroid with Weston`.
 - This is how you can run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on X11!
+- If this method does not work, try launching weston manually and execute `waydroid show-full-ui` inside weston.
 ### Internet Connection Issue
 This issue generally occurs from the **firewall** your system is using.
 - This step is explained in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/17e40f3d-086e-4979-bd7a-786ce5864c66" /> [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
