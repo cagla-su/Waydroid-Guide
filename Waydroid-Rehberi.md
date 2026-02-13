@@ -39,15 +39,18 @@ Bilgisayarların çoğu **x86_64** mimarili işlemciler kullanırken mobil <img 
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/98707f14-2a4e-43b4-be96-51e42f5a687a" /> **Candy Crush** Serisi (ve diğer King oyunlar) - *fare*
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/56449c8c-1ca6-467a-9a8a-06ede7106448" /> **Clash Royale** (ve diğer Supercell oyunları) - *fare*
 ## Başlamadan Önce
-Başlamadan önce, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'in **yalnızca <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland'de** çalıştığını bilmelisiniz. Yani eğer <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11 kullanıyorsanız, bazı **ek adımlar uygulamalısınız**.
+> [!IMPORTANT]
+> Başlamadan önce, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'in **yalnızca <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland'de** çalıştığını bilmelisiniz. Yani eğer <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11 kullanıyorsanız, bazı **ek adımlar uygulamalısınız**.
 ## Başlangıç
-- Öncelikle <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'i [Linux dağıtımınıza göre verilen adımları takip ederek](https://docs.waydro.id/usage/install-on-desktops) **yükleyin**. **gapps** yerine **vanilla** sürümünü seçtiğinizden emin olun.
+- Öncelikle <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'i [Linux dağıtımınıza göre verilen adımları takip ederek](https://docs.waydro.id/usage/install-on-desktops) **yükleyin**.
+> [!IMPORTANT]
+> Lütfen **gapps** yerine **vanilla** sürümünü seçtiğinizden emin olun. Ayrıca, devam etmeden önce <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'i **bir kez çalıştırın**.
 - Ardından, kullandığınız dağıtıma göre [Waydroid Helper](https://github.com/waydroid-helper/waydroid-helper) uygulamasını yükleyin.
 - Başarılı bir şekilde yükleyip uygulamayı açtıktan sonra, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'i yapılandırmak için şu butona tıklayın:
 <img width="630" height="180" alt="image" src="https://github.com/user-attachments/assets/4e1724b4-8a62-4253-bf2f-5f8466fa94ce" />
 
 - Ardından, `Extensions` kısmına gidin ve `LiteGapps-Lite` paketini yükleyin.
-- Sonrasında, aşağı kaydırın ve `houdini` (Intel işlemciler için) veya `ndk_translation` (AMD işlemciler için) ARM çeviri katmanını yükleyin.
+- Sonrasında, aşağı kaydırın ve `houdini` (<img width="16" height="25" alt="intel" src="https://github.com/user-attachments/assets/315abff4-87d6-4779-b38d-08f07b8237a4" /> Intel işlemciler için) veya `ndk_translation` (<img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> AMD işlemciler için) ARM çeviri katmanını yükleyin.
 - Geriye gidip <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'i çalıştırmak için şu butona tıklayın:
 <img width="630" height="180" alt="image" src="https://github.com/user-attachments/assets/9a82542b-6835-4bf8-9b48-290749de63d5" />
 <img width="630" height="318" alt="image" src="https://github.com/user-attachments/assets/4db2f99f-cd0b-43ce-9004-561fe6533c64" />
@@ -66,6 +69,8 @@ Başlamadan önce, <img width="16" height="25" alt="image" src="https://github.c
 - Paket yöneticinizi kullanarak `westom` paketini yükleyin.
 - Waydroid Helper içerisindeyken `Scripts`'e gidin ve `Launch Waydroid with Weston`'a tıklayın.
 - X11'de <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid'i bu şekilde çalıştırabilirsiniz!
+> [!NOTE]
+> Eğer bu yöntem işe yaramazsa, **weston** paketini **elle çalıştırmayı** ve **weston içerisinden** `waydroid show-full-ui` **komutunu çalıştırmayı** deneyin.
 ### İnternet Bağlantısı Sorunu
 Bu hata genellikle sisteminizin kullandığı **güvenlik duvarından** kaynaklanır.
 - Bu adım <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/17e40f3d-086e-4979-bd7a-786ce5864c66" /> [Arch Wiki'de](https://wiki.archlinux.org/title/Waydroid#Network) açıklanmıştır.
