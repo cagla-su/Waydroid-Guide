@@ -11,7 +11,8 @@
     - [Hiding Waydroid Application Shortcuts](https://github.com/cagla-su/Waydroid-Guide/tree/main?tab=readme-ov-file#hiding--waydroid-application-shortcuts) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" />
 - [Conclusion](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#conclusion)
 ## Türkçe Çeviri 🇹🇷
-Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md). Birebir çeviri değildir ama içerik aynıdır.
+> [!NOTE]
+> Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md). Birebir çeviri değildir ama içerik aynıdır.
 # Waydroid Guide
 Hello. In this guide, you will be informed about **what is <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid and how to install/configure it**. If you are ready, let's begin!
 ## Questions
@@ -44,13 +45,16 @@ Mobile <img width="16" height="25" alt="image-removebg-preview(1)" src="https://
 > [!IMPORTANT]
 > Before starting, you should be aware of the fact that <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **only runs on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a00199c8-1319-4180-bbae-9e77988a03d3" /> Wayland!** So if you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11, you should **apply some extra steps**.
 ## Get Started
-- First of all, **install** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid [following the steps according to your Linux distribution](https://docs.waydro.id/usage/install-on-desktops). Please make sure to install **vanilla** version, which is **the opposite of gapps**.
+- First of all, **install** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid [following the steps according to your Linux distribution](https://docs.waydro.id/usage/install-on-desktops).
+> [!IMPORTANT]
+> Please make sure to install **vanilla** version, which is **the opposite of gapps**.
+> Also **launch** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid **once** before continuing.
 - Next, **install** [Waydroid Helper](https://github.com/waydroid-helper/waydroid-helper) according to your distribution.
 - After successfully installing and running the application, click this button to configure <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid:
 <img width="630" height="180" alt="image" src="https://github.com/user-attachments/assets/4e1724b4-8a62-4253-bf2f-5f8466fa94ce" />
 
 - Next, go to `Extensions` and install `LiteGapps-Lite`
-- Then, scroll down and install `houdini` (for Intel CPUs) or `ndk_translation` (for AMD CPUs)
+- Then, scroll down and install `houdini` (for <img width="16" height="25" alt="intel" src="https://github.com/user-attachments/assets/315abff4-87d6-4779-b38d-08f07b8237a4" /> Intel CPUs) or `ndk_translation` (for <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> AMD CPUs)
 - Click this button to go back and run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
 <img width="630" height="180" alt="image" src="https://github.com/user-attachments/assets/9a82542b-6835-4bf8-9b48-290749de63d5" />
 <img width="630" height="318" alt="image" src="https://github.com/user-attachments/assets/4db2f99f-cd0b-43ce-9004-561fe6533c64" />
@@ -69,7 +73,8 @@ Mobile <img width="16" height="25" alt="image-removebg-preview(1)" src="https://
 - Install `weston` package using your package manager.
 - Inside Waydroid Helper, go to `Scripts` and click `Launch Waydroid with Weston`.
 - This is how you can run <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid on X11!
-- If this method does not work, try launching weston manually and execute `waydroid show-full-ui` inside weston.
+> [!NOTE]
+> If this method does not work, try **launching weston manually** and execute `waydroid show-full-ui` command **inside weston**.
 ### Internet Connection Issue
 This issue generally occurs from the **firewall** your system is using.
 - This step is explained in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/17e40f3d-086e-4979-bd7a-786ce5864c66" /> [Arch Wiki](https://wiki.archlinux.org/title/Waydroid#Network)
