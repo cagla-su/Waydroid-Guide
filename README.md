@@ -1,15 +1,15 @@
 # Table of Contents
-- [Questions](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#questions)
-    - [What is Waydroid?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#what-is--waydroid)
-    - [How does Waydroid differ from Android emulators?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#how-does--waydroid-differ-from--android-emulators)
-    - [Can I play all Android games through Waydroid?](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#can-i-play-all--android-games-through--waydroid)
-- [Before Starting](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#before-starting)
-- [Get Started](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#get-started)
-- [Waydroid Tweaks](https://github.com/cagla-su/Waydroid-Guide/tree/main?tab=readme-ov-file#-waydroid-tweaks)
-    - [Run Waydroid on X11](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#run--waydroid-on--x11)
-    - [Internet Connection Issue](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#internet-connection-issue)
-    - [Hiding Waydroid Application Shortcuts](https://github.com/cagla-su/Waydroid-Guide/tree/main?tab=readme-ov-file#hiding--waydroid-application-shortcuts)
-- [Conclusion](https://github.com/cagla-su/Waydroid-Guide?tab=readme-ov-file#conclusion)
+- [Questions](https://github.com/cagla-su/Waydroid-Guide/blob/main/README.md#questions)
+    - [What is Waydroid?](https://github.com/cagla-su/Waydroid-Guide/blob/main/README.md#what-is-waydroid)
+    - [How does Waydroid differ from Android emulators?](https://github.com/cagla-su/Waydroid-Guide/blob/main/README.md#how-does-waydroid-differ-from-android-emulators)
+    - [Can I play all Android games through Waydroid?](https://github.com/cagla-su/Waydroid-Guide/blob/main/README.md#can-i-play-all-android-games-through-waydroid)
+- [Before Starting](https://github.com/cagla-su/Waydroid-Guide/blob/main/README.md#before-starting)
+- [Get Started](https://github.com/cagla-su/Waydroid-Guide/blob/main/README.md#get-started)
+- [Waydroid Tweaks](https://github.com/cagla-su/Waydroid-Guide/blob/main/README.md#waydroid-tweaks)
+    - [Run Waydroid on X11](https://github.com/cagla-su/Waydroid-Guide/blob/main/README.md#run-waydroid-on-x11)
+    - [Internet Connection Issue](https://github.com/cagla-su/Waydroid-Guide/blob/main/README.md#internet-connection-issue)
+    - [Hiding Waydroid Application Shortcuts](https://github.com/cagla-su/Waydroid-Guide/blob/main/README.md#hiding-waydroid-application-shortcuts)
+- [Conclusion](https://github.com/cagla-su/Waydroid-Guide/blob/main/README.md#conclusion)
 ## Türkçe Çeviri 🇹🇷
 > [!NOTE]
 > Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md). Birebir çeviri değildir ama içerik aynıdır.
