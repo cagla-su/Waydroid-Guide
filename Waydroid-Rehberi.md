@@ -1,14 +1,14 @@
 # İçindekiler
 - [Sorular](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#sorular)
-    - [Waydroid nedir?](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#-waydroid-nedir)
-    - [Waydroid'in diğer Android emülatörlerinden farkı nedir?](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#-waydroidin-di%C4%9Fer--android-em%C3%BClat%C3%B6rlerinden-fark%C4%B1-nedir)
-    - [Waydroid ile tüm Android oyunlarını oynayabilir miyim?](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#-waydroid-ile-t%C3%BCm--android-oyunlar%C4%B1n%C4%B1-oynayabilir-miyim)
+    - [Waydroid nedir?](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#waydroid-nedir)
+    - [Waydroid'in diğer Android emülatörlerinden farkı nedir?](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#waydroidin-di%C4%9Fer-android-em%C3%BClat%C3%B6rlerinden-fark%C4%B1-nedir)
+    - [Waydroid ile tüm Android oyunlarını oynayabilir miyim?](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#waydroid-ile-t%C3%BCm-android-oyunlar%C4%B1n%C4%B1-oynayabilir-miyim)
 - [Başlamadan Önce](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#ba%C5%9Flamadan-%C3%B6nce)
 - [Başlangıç](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#ba%C5%9Flang%C4%B1%C3%A7)
-- [Waydroid Ayarlamaları](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#-waydroid-ayarlamalar%C4%B1)
-    - [X11'de Waydroid'i Çalıştırma](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#-x11de--waydroid-%C3%A7al%C4%B1%C5%9Ft%C4%B1rma)
+- [Waydroid Ayarlamaları](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#waydroid-ayarlamalar%C4%B1)
+    - [X11'de Waydroid'i Çalıştırma](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#x11de-waydroid-%C3%A7al%C4%B1%C5%9Ft%C4%B1rma)
     - [Internet Bağlantısı Sorunu](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#i%CC%87nternet-ba%C4%9Flant%C4%B1s%C4%B1-sorunu)
-    - [Waydroid Uygulama Kısayollarını Saklama](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#-waydroid-uygulama-k%C4%B1sayollar%C4%B1n%C4%B1-saklama)
+    - [Waydroid Uygulama Kısayollarını Saklama](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#waydroid-uygulama-k%C4%B1sayollar%C4%B1n%C4%B1-saklama)
 - [Kapanış](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md#kapan%C4%B1%C5%9F)
 # Waydroid Rehberi
 Esenlikler. Bu rehberde **Waydroid'in ne olduğu ve nasıl kurup yapılandırabileceğiniz** hakkında bilgilendirileceksiniz. Hazırsanız, başlayalım!
